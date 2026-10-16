@@ -1,0 +1,24 @@
+Testing differentiation...
+Result: cos(x)/(2*sqrt(sin(x))) + 1/(2*x*sqrt(log(x)))
+Result in latex: \frac{\cos{\left(x \right)}}{2 \sqrt{\sin{\left(x \right)}}} + \frac{1}{2 x \sqrt{\log{\left(x \right)}}}
+Elapsed time: 0 min. 0 sec. 65 millisec.
+
+Computing indefinite integral...
+Result: sqrt(log(x)) + sqrt(sin(x))
+Result in latex: \sqrt{\log{\left(x \right)}} + \sqrt{\sin{\left(x \right)}}
+Elapsed time: 0 min. 0 sec. 260 millisec.
+
+Computing indefinite integral that does not exist...
+Indefinite Integral(sqrt(log(x)) + sqrt(sin(x)), x) does not exist!
+Elapsed time: 0 min. 0 sec. 570 millisec.
+
+Solving differential equation...
+Result: Eq(f(x), C1/x**7 + C2*x**7)
+Result in latex: f{\left(x \right)} = \frac{C_{1}}{x^{7}} + C_{2} x^{7}
+Elapsed time: 0 min. 0 sec. 255 millisec.
+
+Factorizing algebraic expression...
+Result: (x + y)*(x**2 - x*y + y**2)*(x**6 - x**3*y**3 + y**6)*(x**10 - x**9*y + x**8*y**2 - x**7*y**3 + x**6*y**4 - x**5*y**5 + x**4*y**6 - x**3*y**7 + x**2*y**8 - x*y**9 + y**10)*(x**20 + x**19*y - x**17*y**3 - x**16*y**4 + x**14*y**6 + x**13*y**7 - x**11*y**9 - x**10*y**10 - x**9*y**11 + x**7*y**13 + x**6*y**14 - x**4*y**16 - x**3*y**17 + x*y**19 + y**20)*(x**60 + x**57*y**3 - x**51*y**9 - x**48*y**12 + x**42*y**18 + x**39*y**21 - x**33*y**27 - x**30*y**30 - x**27*y**33 + x**21*y**39 + x**18*y**42 - x**12*y**48 - x**9*y**51 + x**3*y**57 + y**60)
+Result in latex: \left(x + y\right) \left(x^{2} - x y + y^{2}\right) \left(x^{6} - x^{3} y^{3} + y^{6}\right) \left(x^{10} - x^{9} y + x^{8} y^{2} - x^{7} y^{3} + x^{6} y^{4} - x^{5} y^{5} + x^{4} y^{6} - x^{3} y^{7} + x^{2} y^{8} - x y^{9} + y^{10}\right) \left(x^{20} + x^{19} y - x^{17} y^{3} - x^{16} y^{4} + x^{14} y^{6} + x^{13} y^{7} - x^{11} y^{9} - x^{10} y^{10} - x^{9} y^{11} + x^{7} y^{13} + x^{6} y^{14} - x^{4} y^{16} - x^{3} y^{17} + x y^{19} + y^{20}\right) \left(x^{60} + x^{57} y^{3} - x^{51} y^{9} - x^{48} y^{12} + x^{42} y^{18} + x^{39} y^{21} - x^{33} y^{27} - x^{30} y^{30} - x^{27} y^{33} + x^{21} y^{39} + x^{18} y^{42} - x^{12} y^{48} - x^{9} y^{51} + x^{3} y^{57} + y^{60}\right)
+Elapsed time: 5 min. 21 sec. 866 millisec.
+

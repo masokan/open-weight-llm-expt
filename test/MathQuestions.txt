@@ -1,0 +1,6 @@
+What is the derivative of the function $f(x) = \sqrt{\sin(x)} + \sqrt{\ln(x)}$ ?
+What is the antiderivative of the function $f(x) = \frac{1}{2} \left[ \frac{\cos(x)}{\sqrt{\sin(x)}} + \frac{1}{x\sqrt{\ln(x)}} \right]$ ?
+What is the antiderivative of the function $f(x) = \sqrt{\sin(x)} + \sqrt{\ln(x)}$ ?
+Solve the differential equation: $x^2 \frac{d^2y}{dx^2} + x \frac{dy}{dx} = 49y$
+Find all factors of the expression $x^{99} + y^{99}$
+Prove that when two numbers of the form $a^2 + 3b^2$ are multiplied, the result is of the same form
