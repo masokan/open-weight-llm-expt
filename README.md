@@ -66,12 +66,6 @@ system by following these steps:
   different runs are populated in the directory
   `open-weight-llm-expt/test/output/math.`
 
-  **`open-weight-llm-expt/test/runLLMFunctionCallTests.sh:`** This
-  script is very similar to `runLLMMathTests.sh` except that it creates
-  the appropriate python environment and runs the math tests by invoking
-  `llm_func_call.py` repeatedly for each question in
-  `MathQuestions.txt.`
-
 - The questions for `medgemma` were picked from
   [here.](https://www.missouriacp.org/uploads/6/9/1/3/69139257/acpmo_mksap_mcqs_sept2023_pk_ir_final.pdf)
   You can copy each question to a file (*e.g.,* `q1.txt`) and save any
