@@ -59,12 +59,12 @@ system by following these steps:
   `open-weight-llm-expt/test/output/math/python-output.txt.`
 
   **`open-weight-llm-expt/test/runLLMMathTests.sh:`** This script runs
-  the math tests by invoking `runModel.sh` repeatedly for each question
-  in `MathQuestions.txt.` The output from the LLM is captured in a
-  separate file for each question. The output file name is derived from
-  question number, model name, and timestamp. Output files created from
-  different runs are populated in the directory
-  `open-weight-llm-expt/test/output/math.`
+  the math tests by invoking `runModel.sh` or `llm_func_call.py`
+  repeatedly for each question in `MathQuestions.txt.` The output from
+  the LLM is captured in a separate file for each question. The output
+  file name is derived from question number, model name, and timestamp.
+  Output files created from different runs are populated in the
+  directory `open-weight-llm-expt/test/output/math.`
 
 - The questions for `medgemma` were picked from
   [here.](https://www.missouriacp.org/uploads/6/9/1/3/69139257/acpmo_mksap_mcqs_sept2023_pk_ir_final.pdf)
