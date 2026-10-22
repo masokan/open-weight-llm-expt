@@ -30,15 +30,15 @@ while read question
 do
    for model in $models
    do
-#      outputFile="$outputDir/q${n}-${model}-${timeStamp}.md"
-#      $scriptDir/runModel.sh "$model" "$question" </dev/null >"$outputFile" 2>/dev/null
+      outputFile="$outputDir/q${n}-${model}-${timeStamp}.md"
+      $scriptDir/runModel.sh "$model" "$question" </dev/null >"$outputFile" 2>/dev/null
       # For mathstral, convert math output to latex
-#      case $model in
-#        mathstral*) sed -e 's/\\\[/$/' -e 's/\\\]/$/' -e 's/\\(/$/' -e 's/\\)/$/' "$outputFile" >$$.md
-#                    mv $$.md "$outputFile"
-#                   ;;
-#        *) ;;
-#      esac
+      case $model in
+        mathstral*) sed -e 's/\\\[/$/' -e 's/\\\]/$/' -e 's/\\(/$/' -e 's/\\)/$/' "$outputFile" >$$.md
+                    mv $$.md "$outputFile"
+                   ;;
+        *) ;;
+      esac
       # Run llm function calling test; skip it for mathstral model
       case $model in
         mathstral*) ;;
